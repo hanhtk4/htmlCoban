@@ -1,0 +1,25 @@
+/* id viết theo kiểu thuongHoa */
+#firstId {
+    color: yellow;
+}
+
+/* class giữa các chữ dùng - */
+.first-class {
+    color: green;
+    border: 1pt solid red;
+}
+
+
+
+#secondID {
+    color: rgb(55, 0, 255)
+}
+
+#thirdId {
+    font-size: 30pt;
+}
+
+.myimage {
+    width: 100px;
+    height: 100px;
+}

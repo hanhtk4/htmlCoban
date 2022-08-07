@@ -1,0 +1,37 @@
+/* reset margin, padding (mặc định các phần tử sẽ cách lề và cách nhau 1 khoảng, dùng code sau để ghi đè và reset về 0)*/
+body {
+    margin: 0 !important;
+    /* các đối tượng trong thẻ body sẽ có margin và padding 0, từ khóa !important giúp ghi đè giá trị mặc định*/
+    padding: 0 !important;
+}
+
+.red {
+    border: 1pt solid red;
+}
+
+.green {
+    border: 1pt solid green;
+}
+
+.bander {
+    border: 1px solid red;
+    height: 876px;
+    background: url('./10.source/banner.jpg') center center no-repeat;
+}
+
+about-sign-in {
+    height: 80pt;
+    width: 100%;
+    margin-right: 40pt;
+
+}
+
+/* class about và signin có cùng thuộc tính */
+.logout,
+.signin {
+    /* bỏ gạch chân */
+    text-decoration: none;
+    /* Dịch sang bên phải */
+    float: right;
+    /* text-align: right; */
+}
